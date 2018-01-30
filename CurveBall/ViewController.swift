@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var switchLabel: UILabel!
+    
+    @IBAction func switchButton(_ sender: UISwitch) {
+        if sender.isOn == true{
+            switchLabel.text = "Switch is on"
+        }else{
+            switchLabel.text = "Switch is off"
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

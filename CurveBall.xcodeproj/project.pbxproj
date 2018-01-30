@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1E8F94201A895A00DA03FB /* RefineFetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E8F93201A895A00DA03FB /* RefineFetchViewController.swift */; };
 		8D6D73BD20193D7A004E1CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D73BC20193D7A004E1CBB /* AppDelegate.swift */; };
 		8D6D73BF20193D7A004E1CBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D73BE20193D7A004E1CBB /* ViewController.swift */; };
 		8D6D73C220193D7A004E1CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6D73C020193D7A004E1CBB /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		8D6D73CA20193D7A004E1CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6D73C820193D7A004E1CBB /* LaunchScreen.storyboard */; };
 		8D6D73D520193D7A004E1CBB /* CurveBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D73D420193D7A004E1CBB /* CurveBallTests.swift */; };
 		8D6D73E020193D7B004E1CBB /* CurveBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D73DF20193D7B004E1CBB /* CurveBallUITests.swift */; };
+		8D6D73EE20194718004E1CBB /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D73ED20194718004E1CBB /* DatePickerViewController.swift */; };
+		8D6D73F02019512D004E1CBB /* CustomSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D73EF2019512D004E1CBB /* CustomSwipeViewController.swift */; };
+		8D858F10201AB59500CBD42A /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D858F0F201AB59500CBD42A /* SectionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D1E8F93201A895A00DA03FB /* RefineFetchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefineFetchViewController.swift; sourceTree = "<group>"; };
 		8D6D73B920193D7A004E1CBB /* CurveBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurveBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6D73BC20193D7A004E1CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D6D73BE20193D7A004E1CBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		8D6D73DB20193D7A004E1CBB /* CurveBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6D73DF20193D7B004E1CBB /* CurveBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveBallUITests.swift; sourceTree = "<group>"; };
 		8D6D73E120193D7B004E1CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6D73ED20194718004E1CBB /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		8D6D73EF2019512D004E1CBB /* CustomSwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipeViewController.swift; sourceTree = "<group>"; };
+		8D858F0F201AB59500CBD42A /* SectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				8D6D73BC20193D7A004E1CBB /* AppDelegate.swift */,
 				8D6D73BE20193D7A004E1CBB /* ViewController.swift */,
 				8D6D73C020193D7A004E1CBB /* Main.storyboard */,
+				8D858F0F201AB59500CBD42A /* SectionsViewController.swift */,
+				8D1E8F93201A895A00DA03FB /* RefineFetchViewController.swift */,
+				8D6D73EF2019512D004E1CBB /* CustomSwipeViewController.swift */,
+				8D6D73ED20194718004E1CBB /* DatePickerViewController.swift */,
 				8D6D73C620193D7A004E1CBB /* Assets.xcassets */,
 				8D6D73C820193D7A004E1CBB /* LaunchScreen.storyboard */,
 				8D6D73CB20193D7A004E1CBB /* Info.plist */,
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6D73EE20194718004E1CBB /* DatePickerViewController.swift in Sources */,
 				8D6D73C520193D7A004E1CBB /* CurveBall.xcdatamodeld in Sources */,
+				8D6D73F02019512D004E1CBB /* CustomSwipeViewController.swift in Sources */,
 				8D6D73BF20193D7A004E1CBB /* ViewController.swift in Sources */,
+				8D1E8F94201A895A00DA03FB /* RefineFetchViewController.swift in Sources */,
 				8D6D73BD20193D7A004E1CBB /* AppDelegate.swift in Sources */,
+				8D858F10201AB59500CBD42A /* SectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
